@@ -1,0 +1,150 @@
+/* ======================banner markup start==================== */
+#banner_part{
+    padding: 100px 0;
+}
+.banner_title{
+    font: 500 62px/62px var(--inter);
+    color: #000;
+}
+.banner_summery{
+    font: 400 16px/24px var(--inter);
+    color: #000;
+    margin-top: 20px;
+}
+.common_btn{
+    width: 118px;
+    height: 54px;
+    background: #00a2d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 16px/24px var(--inter);
+    color: #fff;
+    border: 0px;
+    margin-top: 25px;
+    transition: all linear .1s;
+}
+.common_btn:hover{
+    background: #000;
+}
+/* ----------------------banner markup end----------------------- */
+/* ======================why choose us markup start==================== */
+#why-choose-us{
+    padding-bottom: 50px;
+}
+.whyChooseUs_title{
+    font: 500 50px/50px var(--inter);
+    color: #000;
+    text-align: center;
+    margin: 0% auto;
+    margin-bottom: 60px;
+}
+.whyChooseUs_img{
+    width: 80%;
+}
+.whyChooseUs_summery{
+    font: 500 24px/28.8px var(--inter);
+    color: #000;
+    margin-top: 40px;
+}
+/* ----------------------why choose us markup end----------------------- */
+/* ======================uniform_part markup start==================== */
+#uniform_part{
+    padding: 80px 0;
+}
+.uniform_part_row{
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+.uniform_img{
+	border-radius: 100em;
+	aspect-ratio: 1;
+	object-fit: cover;
+}
+.uniform_right_title{
+    font: 500 42px/43px var(--inter);
+    color: #000;
+}
+.uniform_right_summery{
+    font: 400 16px/26px var(--inter);
+    color: #000;
+    margin: 20px 0 30px;
+}
+/* ----------------------uniform_part markup end----------------------- */
+/* ===========================about us markup start======================= */
+#aboutUs_part{
+    padding: 50px 0;
+}
+.aboutUs_title{
+    font: 500 60px/60px var(--inter);
+    color: #000;
+}
+.aboutUs_summery{
+    font: 400 16px/26px var(--inter);
+    color: #000;
+    margin-top: 15px;
+}
+.aboutUs_left_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    margin-top: 60px;
+}
+.aboutUs_left_item {
+    max-width: 344px;
+    height: 57px;
+    padding-left: 20px;
+    border-left: 1px solid #1e1e1e40;
+    font: 500 24px/28px var(--inter);
+    color: #00A2D7;
+}
+.about_right_list{
+    margin-top: 15px;
+    padding-left: 30px;
+}
+.about_right_item{
+    font: 400 16px/26px var(--inter);
+    color: #000;
+    list-style-type: disc;
+}
+.about_right_item::marker{
+    color: #000;
+}
+/* --------------------------about us markup end--------------------------- */
+/* ==========================ourService markup start======================= */
+#ourService{
+    padding: 100px 0 ;
+}
+.ourService_title{
+    font: 500 60px/60px var(--inter);
+    color: #000;
+    text-align: center;
+    margin: 50px 0 150px;
+}
+.ourService_row{
+    padding: 50px 0;
+    border-bottom: 2px solid  #4747471a;
+}
+.ourService_heading_title{
+    font: 500 40px/40px var(--inter);
+    color: #00A2D7;
+}
+.ourService_summery, .ourService_item{
+    font: 400 16px/26px var(--inter);
+    color: #000;
+}
+.ourService_list{
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.ourService_item{
+    list-style-type: disc;
+}
+
+
+
+
+/* --------------------------ourService markup end--------------------------- */
