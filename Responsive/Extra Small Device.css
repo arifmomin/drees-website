@@ -1,0 +1,27 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
+.navbar {
+    padding: 5px 0;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-nav {
+    align-items: end;
+	padding: 5px 20px;
+    background: #00a2d7;
+    margin-top: 5px;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.navbar-logo {
+	max-width: 140px;
+}
+
+}

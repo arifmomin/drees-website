@@ -49,66 +49,69 @@ body{
 /* ======================css veriable part start==================== */
 :root{
     --inter: "Inter", sans-serif;
+    --common-color: #00a2d7;
 }
 
 /* ----------------------css veriable part end----------------------- */
 /* ======================navbar part start==================== */
 .navbar{
-    height: 100px;
+    width: 100%;
+    position: absolute;
+    padding: 20px 0;
 }
-.navbar_nav{
+.navbar-nav{
     width: 100%;
     display: flex;
     justify-content: end;
     column-gap: 18px;
 }
-.nav_link{
+.nav-link{
     font: 400 16px/26.4px var(--inter);
     color: #000;
 }
-.navbar_logo{
+.navbar-logo{
     max-width: 157px;
     max-height: 64px;
 }
 /* ----------------------navbar part end----------------------- */
 /*==============================footer part start========================== */
-#footer_part{
+#footer-section{
     padding: 100px 0;
     background: #eeeeee;
 }
-.footer_logo{
+.footer-logo{
     width: 227px;
 }
-.footer_left_list{
+.company-list{
     display: flex;
     flex-direction: column;
     row-gap: 15px;
     margin-top: 20px;
 }
-.footer_left_item{
+.company-item{
     font: 400 16px/26px var(--inter);
     color: #000;
 }
-.footer_title{
+.branch-title{
     font: 500 16px/19px var(--inter);
     color: #000;
     margin-bottom: 20px;
 }
-.footer_common_list{
+.branch-info{
     display: flex;
     flex-direction: column;
     row-gap: 15px;
 }
-.footer_common_item span{
+.branch-item span{
     font: 400 16px/26px var(--inter);
     color: #000;
 }
-.footer_common_item{
+.branch-item{
     display: flex;
     flex-direction: column;
     row-gap: 2px;
 }
-.footer_common_item span a{
+.branch-item span a{
     font: 400 16px/26px var(--inter);
     color: #000;
     text-decoration: underline;
