@@ -95,7 +95,7 @@ body{
 .branch-title{
     font: 500 16px/19px var(--inter);
     color: #000;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 .branch-info{
     display: flex;
